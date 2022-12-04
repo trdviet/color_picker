@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="style_preview_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="style_preview_etv">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:hint">100</item>
+        <item name="android:importantForAutofill" tools:ignore="NewApi">no</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Color</string>
+    <string name="color_layout_title">Color Layout</string>
+    <string name="color_value">Value</string>
+    <string name="color_opacity">Opacity</string>
+    <string name="string_close">Close</string>
+    <string name="string_a">A</string>
+    <string name="string_r">R</string>
+    <string name="string_g">G</string>
+    <string name="string_b">B</string>
+</resources>

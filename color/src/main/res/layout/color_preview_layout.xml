@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/green"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/color_preview"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/style_preview_tv"
+            android:text="@string/string_a" />
+
+        <EditText
+            android:id="@+id/edt_alpha"
+            style="@style/style_preview_etv"
+            android:importantForAutofill="no" />
+
+        <TextView
+            style="@style/style_preview_tv"
+            android:text="@string/string_r" />
+
+        <EditText
+            android:id="@+id/edt_red"
+            style="@style/style_preview_etv"
+            android:importantForAutofill="no" />
+
+        <TextView
+            style="@style/style_preview_tv"
+            android:text="@string/string_g" />
+
+        <EditText
+            android:id="@+id/edt_green"
+            style="@style/style_preview_etv"
+            android:importantForAutofill="no" />
+
+        <TextView
+            style="@style/style_preview_tv"
+            android:text="@string/string_b" />
+
+        <EditText
+            android:id="@+id/edt_blue"
+            style="@style/style_preview_etv" />
+
+    </LinearLayout>
+
+</RelativeLayout>
